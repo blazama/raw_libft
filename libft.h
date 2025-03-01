@@ -6,7 +6,7 @@
 /*   By: bzapico <bzapico@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 13:53:18 by bzapico           #+#    #+#             */
-/*   Updated: 2025/03/01 09:42:12 by bzapico          ###   ########.fr       */
+/*   Updated: 2025/03/01 09:42:59 by bzapico          ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -26,6 +26,8 @@ size_t	ft_strlen(const char *s);
 
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
+void	*ft_memcpy(void *dest, const void *src, size_t n);
+void	*ft_memmove(void *dest, const void *src, size_t n);
 
 
 #endif
